@@ -8,6 +8,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { TokenFormComponent } from './token-form/token-form.component';
 import { ProfileComponent } from './profile/profile.component';
 import { RepositoryComponent } from './repository/repository.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { RepositoryComponent } from './repository/repository.component';
     NavbarComponent,
     TokenFormComponent,
     ProfileComponent,
-    RepositoryComponent
+    RepositoryComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
