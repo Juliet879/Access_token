@@ -6,21 +6,15 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { TokenFormComponent } from './token-form/token-form.component';
-import { ProfileComponent } from './profile/profile.component';
 import { RepositoryComponent } from './repository/repository.component';
-import { NotFoundComponent } from './not-found/not-found.component';
-import { TokenComponent } from './token/token.component';
+import { FormComponent } from './form/form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    TokenFormComponent,
-    ProfileComponent,
     RepositoryComponent,
-    NotFoundComponent,
-    TokenComponent
+    FormComponent
   ],
   imports: [
     BrowserModule,

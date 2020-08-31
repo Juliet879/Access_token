@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { ProfilesAPIService } from './profiles-api.service';
+import { GithubService } from './profiles-api.service';
 
 describe('ProfilesAPIService', () => {
-  let service: ProfilesAPIService;
+  let service: GithubService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(ProfilesAPIService);
+    service = TestBed.inject(GithubService);
   });
 
   it('should be created', () => {
