@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { GithubService} from '../github.service';
+import { GithubService} from '../github-service/github.service';
 import { User } from '../user';
 import { Repository } from '../repository';
 
@@ -11,7 +11,7 @@ import { Repository } from '../repository';
 export class RepositoryComponent implements OnInit {
 
 user:User;
-repo:RepositoryComponent;
+repo:Repository;
 
   constructor(public githubService:GithubService){ }
 
