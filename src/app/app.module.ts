@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { TokenFormComponent } from './token-form/token-form.component';
 import { ProfileComponent } from './profile/profile.component';
+import { RepositoryComponent } from './repository/repository.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     TokenFormComponent,
-    ProfileComponent
+    ProfileComponent,
+    RepositoryComponent
   ],
   imports: [
     BrowserModule,
