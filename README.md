@@ -1,27 +1,38 @@
-# Tokens
+# ACCESS_TOKEN GENERATOR
+Access_token, August 30th 2020
+#### By **Juliet Gisemba**
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.6.
+## Description
+- An application that enables users to add quotes,delete quotes.You can also be able to see already existing and there author and can upvote and downvote quotes.
 
-## Development server
+## Behaviour Driven Development(BDD)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+| Input                        | Ouput                                                                                            |
+|--------------------------    |----------------------------------------------------------------------------------------------    |
+| Enter github username     | Repositories display                |
+| User Clicks here           | The website displays            |
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Setup/Installation requirements
 
-## Build
+- Clone  or download and unzip the repository from github, [https://github.com/Juliet879/Access_token-/](https://github.com/Juliet879/Access_token).
+- If you have git Use this command `git clone *` to clone the project.
+- Run ng serve from your terminal
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Live Demo
+To view the page click on the link below
 
-## Running unit tests
+## Technologies Used
+- Angular CLI
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Known Bugs
+- There are no known bugs currently. The page works as expected.
 
-## Running end-to-end tests
+## Support and Contact Details
+- For any comments,suggestions,feedback or inquiries, contact me via email: `julietgisemba000@gmail.com`
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+- Make contributions to the code.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## License
+- This project is licensed under the MIT Open Source license Copyright (c) 2019. [Juliet Gisemba]
