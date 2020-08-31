@@ -3,7 +3,7 @@ Access_token, August 30th 2020
 #### By **Juliet Gisemba**
 
 ## Description
-- An application that enables users to add quotes,delete quotes.You can also be able to see already existing and there author and can upvote and downvote quotes.
+- An application that enables users to add github username and see the respective repositories.
 
 ## Behaviour Driven Development(BDD)
 
