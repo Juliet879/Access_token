@@ -1,8 +1,8 @@
 import { TestBed } from '@angular/core/testing';
 
-import { GithubService } from './profiles-api.service';
+import { GithubService } from './github.service';
 
-describe('ProfilesAPIService', () => {
+describe('GithubService', () => {
   let service: GithubService;
 
   beforeEach(() => {
