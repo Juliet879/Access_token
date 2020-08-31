@@ -1,6 +1,6 @@
 import { Repository } from './repository';
 
-describe('Repo', () => {
+describe('Repository', () => {
   it('should create an instance', () => {
     expect(new Repository()).toBeTruthy();
   });
