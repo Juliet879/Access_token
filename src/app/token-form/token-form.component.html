@@ -3,7 +3,7 @@
     <form>
         <div class="form-group">
 
-            <input type="text" required class="form-control" id="name" placeholder="Github username">
+            <input type="text" #search (keyup.enter)="search(search.value)" required class="form-control" id="name" placeholder="Github username">
 
         </div>
     </form>
