@@ -1,7 +1,6 @@
-import { Token } from './user';
-
-describe('Token', () => {
+import { User } from './user';
+describe('User', () => {
   it('should create an instance', () => {
-    expect(new Token()).toBeTruthy();
+    expect(new User("","","","","","","","",new Date)).toBeTruthy();
   });
 });
